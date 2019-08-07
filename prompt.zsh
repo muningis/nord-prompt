@@ -7,7 +7,7 @@ function nord_get_pwd() {
 function nord_get_branch() {
     local branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
     if [ "$branch" != "" ]; then
-        echo -n " on %F{red}  ${branch}"
+        echo -n " on %F{red} ${branch}"
     fi
 }
 
