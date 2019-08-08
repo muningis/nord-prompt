@@ -43,5 +43,5 @@ function precmd {
     DATE=$( date +"%H:%M:%S" )
     RPROMPT="$(nord_get_time)"
     PROMPT="$(nord_get_pwd)$(nord_get_branch)$(nord_get_git_status)
-$(nord_get_indicator) %f"
+$(nord_get_indicatork) %f"
 }
