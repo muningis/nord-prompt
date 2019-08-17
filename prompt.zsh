@@ -1,5 +1,5 @@
 function nord_get_pwd() {
-    echo -n "%F{green}${PWD/$HOME/~}"
+    echo -n "%F{cyan}${PWD/$HOME/~}"
 }
 
 function nord_get_branch() {
@@ -33,7 +33,7 @@ function nord_get_time() {
 }
 
 function nord_get_indicator() {
-    echo -n "%F{green}❯"
+    echo -n "%F{cyan}❯"
 }
 
 
