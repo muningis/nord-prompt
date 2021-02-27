@@ -1,5 +1,5 @@
 function nord_get_pwd() {
-    echo -n "%F{cyan}$USER%f in %F{cyan}${PWD/$HOME/~}"
+    echo -n "🚀 %F{cyan}$USER%f in %F{cyan}${PWD/$HOME/~}"
 }
 
 function nord_get_branch() {
